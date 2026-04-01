@@ -10,9 +10,12 @@ The goal is to recreate the mystery, atmosphere, and identity themes of the stor
 ✨ Features
 i. 240 Frame Animation Sequence
 Smooth scroll-driven transitions across all frames
+
 ii. Scrollytelling Narrative
 Story unfolds dynamically as the user scrolls
+
 iii.Manga Aesthetic UI
 Black & white contrast, panel-like sections, and typography inspired by JoJo
+
 iv.High Performance Rendering
 Optimized asset loading using Vite

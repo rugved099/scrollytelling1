@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400;600;900&family=IM+Fell+English:ital@0;1&display=swap');
+
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --clr-bg: #0a0508;
+  --clr-accent: #c0392b;
+  --clr-gold: #d4a017;
+  --clr-text: #f0e6d3;
+  --clr-dim: rgba(240, 230, 211, 0.6);
+}
+
+html { scroll-behavior: auto; }
+
+body {
+  background: var(--clr-bg);
+  color: var(--clr-text);
+  font-family: 'IM Fell English', serif;
+  overflow-x: hidden;
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes pulse {
+  0%, 100% { opacity: 0.6; }
+  50% { opacity: 1; }
+}
+@keyframes scrollBounce {
+  0%, 100% { transform: scaleY(1); opacity: 1; }
+  50% { transform: scaleY(0.6); opacity: 0.4; }
+}
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}

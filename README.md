@@ -8,6 +8,7 @@ It transforms the surreal and fragmented narrative of Jojolion into an interacti
 The goal is to recreate the mystery, atmosphere, and identity themes of the story using modern web technologies.
 
 ✨ Features
+
 i. 240 Frame Animation Sequence
 Smooth scroll-driven transitions across all frames
 
